@@ -1,0 +1,339 @@
+body {
+    margin: 0;
+}
+.open-page {
+    background: url(https://du1frgvkr39c.cloudfront.net/assets/landing-page/landingpage-5ae528c12abe1e719f4f72498b070f42.jpg) no-repeat center 95%;
+    background-size: cover;
+    margin: 0;
+}
+.navbar {
+    padding: 10px;
+}
+.search-field {
+    height: 23px;
+    font-size: 17px;
+    width: 230px;
+    padding: 4px 5px 3px 4px;
+    background: none;
+    border: 0;
+    box-shadow: none;
+    margin-top: 15px;
+    vertical-align: top;
+}
+.icon {
+    margin-top: 5px;
+    border: 0;
+}
+
+.btn {
+    color: white;
+    border: 2px solid white;
+    margin: 5px 5px 6px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 3.5px;
+    margin: 0;
+}
+li {
+    line-height: 18px;
+    color: white;
+}
+.ul>li {
+    display: block;
+    float: left;
+    padding: 7px;
+    
+}
+.no-btn {
+    margin: 8px 5px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.ul {
+    padding: 5px;
+    margin: 0;
+    z-index: 8;
+    display: block;
+    list-style: none;
+    float: right;
+}
+.ul>li>a {
+    display: block;
+    color: white;
+}
+a:hover {
+    cursor: pointer;
+}
+.sliders {
+    position: relative;
+    width: 100%;
+    margin: 50px auto 0;
+    min-height: 665px;
+    text-align: center;
+    text-shadow: none;
+    color: white;
+}
+.container {
+    margin: 0 auto;
+    width: 96%;
+    float: none;
+}
+.bold {
+    font-family: Fjalla One;
+    text-transform: uppercase;
+    line-height: 105%;
+    letter-spacing: -5px;
+    font-weight: 400;
+    text-align: center;
+    margin: 15px 0 0;
+    /* color: white; */
+    font-size: 190px;
+}
+.stylic {
+    font-size: 33px;
+    line-height: 140%;
+    text-shadow: none;
+    font-family: 'Lora', serif;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 45px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+.center-btn {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+.trending {
+    font-weight: bold;
+    box-shadow: none;
+    background: none;
+    border: 2px solid #FFF;
+    text-shadow: none;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    margin-top: 10px;
+}
+.center-slider {
+    margin: 130px 0 50px;
+    clear: both;
+    color: #5C717C;
+}
+.center-slider> a {
+    padding: 10px;
+    margin:15px
+}
+.bottom-slider {
+    width: 96%;
+    display: flex;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding: 40px 25px;
+}
+.half-container {
+    margin: 0px 10%;
+}
+.share {
+    text-align: center;
+    padding: 50px;
+}
+.story {
+    font-family: Fjalla One;
+    line-height: 120%;
+    font-size: 45px;
+    color: #1a3745;
+}
+.para {
+    color: #1a3745;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    margin: 0 auto 20px;
+    max-width: 800px;
+}
+.big-img {
+    padding: 10px;
+}
+.tools {
+    background-color: #183442;
+}
+.tools-container {
+    text-align: center;
+    padding: 50px;
+}
+.power {
+    margin-bottom: 25px;
+    color: white;
+    font-family: Fjalla One;
+    line-height: 120%;
+    font-size: 45px;
+}
+.power-para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    margin-bottom: 65px;
+    max-width: 800px;
+    color: #5f7482;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+.design {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 10px;
+}
+.img-design {
+    height: 80px;
+    width: auto;
+    margin-bottom: 25px;
+}
+.design-container {
+    text-align: center;
+    padding: 5px;
+}
+.heading-design {
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+.para-design {
+    font-size: 13px;
+    line-height: 140%;
+    max-width: 200px;
+    margin: 0 auto 10px;
+    color: #5f7482;
+}
+.achievements {
+    padding: 30px;
+    text-align: center;
+}
+.header {
+    font-family: Fjalla One;
+    line-height: 120%;
+    color: #1a3745;
+    font-size: 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.img-group {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 0 2% 2% 0;
+    position: relative;
+}
+.bg {
+   width: 60%;
+}
+.benefits {
+    background: #333;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+.content {
+    margin-top: 65px;
+    padding-bottom: 65px;
+    margin: 0;
+}
+.content-heading {
+    color: white;
+    text-align: left;
+    font-family: Fjalla One;
+    line-height: 120%;
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.para-content {
+    color: #a7a9ac;
+    font-size: 17px;
+    line-height: 180%;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "open sans","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    margin: 0 auto 20px;
+    max-width: 800px
+}
+.author-card {
+    position: relative;
+    margin-top: 15px;
+    padding: 15px 0;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+.benefits-mid {
+    background: #efc11a;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    padding-left: 10px;
+    margin-right: -75px;
+}
+.content-mid {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    margin: 0;
+}
+.benefits-last {
+    background: #f16565;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+.content-last {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    margin: 0;
+}
+.call {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    padding: 35px;
+}
+.footer {
+    width: 100%;
+    float: left;
+    background: #333;
+    color: #fff;
+    padding: 35px;
+}
+.social {
+    margin-left: 35%;
+}
+.links {
+    text-shadow: none;
+    font-size: 18px;
+    margin: 35px 0;
+    text-align: center;
+    font-weight: bold;
+}
+.link {
+    margin: 0 5px;
+}
+.copyrights {
+    color: #636363;
+    text-align: center;
+    text-shadow: none;
+    font-size: 18px;
+    margin: 0;
+    font-weight: normal;
+}
+.img-design:hover {
+    animation: trans 2s infinite;
+}
+@keyframes trans {
+    20%  { transform: translateX(4px);  }
+  40%  { transform: translateX(-4px); }
+  60%  { transform: translateX(2px);  }
+  80%  { transform: translateX(-1px); }
+  100% { transform: translateX(0);    }
+}
